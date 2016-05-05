@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Code your adventure: Flying and Teleportation</title>
+</head>
+
+<body>
+
+<script>
+    var user=prompt("Do you want to learn how to fly? Yes, No,Not possible").toLowerCase();
+
+switch(user) {
+    case 'yes' :
+        console.log("That's the spirit");
+        var tele= prompt("Do you want to telelport too? Yes, No, Not possible").toLowerCase();
+        if (user && tele === "yes") {
+            console.log("With teleportation and flying ability you will be unstoppable")
+        }else {
+            console.log("fly fly! to the edge of the Universe");
+        }
+        break;
+        
+        
+    case 'no' :
+        if (user=== "no" || "not possible"){
+            console.log("This is unbielivable, you have to say yes");
+            
+        }else {
+        
+        console.log("Come dont you to be able to travel the World withing minutes")
+        }
+        break;
+        
+    case 'not possible ' :
+         if (user=== "not possible" && "no") {
+        console.log("Nothing is impossible...nothing");
+         } else {
+            console.log("I give up");
+         }
+        break;
+        
+    default:
+        console.log("What is your choice, dont' you want to be among the stars");
+        
+}
+</script>
+
+</body>
+</html>
